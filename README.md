@@ -9,5 +9,5 @@
 ***HOW TO USE***
 - Install Node.js
 - Run Powershell in folder
-- Run command "node otp.js"
+- Run command ```node otp.js```
 - Run Index.html
