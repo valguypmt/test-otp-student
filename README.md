@@ -55,10 +55,15 @@ administrator can change that record's `status` to `verified` or `banned`.
 Use `pending` while waiting for review, `verified` after approval, or `banned`
 to revoke access.
 
-## Project Files
 
-- `otp.js` — Express API, OTP logic, and account storage
-- `index.html` — Student email and OTP verification page
-- `setup.html` — Minecraft username registration and account status page
-- `users.json` — Registered accounts keyed by hashed email
-- `cooldowns.json` — Reserved cooldown storage file
+## Project Structure
+
+```text
+.
+├── otp.js           # Express API, OTP logic, and account storage
+├── index.html       # Student email and OTP verification page
+├── setup.html       # Minecraft username registration and account status page
+├── users.json       # Registered accounts keyed by hashed email
+└── cooldowns.json   # Reserved cooldown storage file
+    
+```
