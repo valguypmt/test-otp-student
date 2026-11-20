@@ -19,17 +19,11 @@ Minecraft username, and tracking a whitelist approval status.
 - Stores email addresses as SHA-256 hashes in `users.json`
 - Supports `pending`, `verified`, and `banned` account statuses
 
-## How to Run
+## How to Use
 
 1. Install Node.js.
 2. Open PowerShell in the project folder.
-3. Install the server dependencies:
-
-   ```powershell
-   npm install express cors
-   ```
-
-4. Start the API server:
+3. Start the API server:
 
    ```powershell
    node otp.js
@@ -37,11 +31,11 @@ Minecraft username, and tracking a whitelist approval status.
 
    The server runs at `http://localhost:3000`.
 
-5. Open `index.html` in a browser.
-6. Enter a `@student.edu.vn` email and select **Send OTP**.
-7. Copy the 4-digit code printed in the terminal, enter it on the page, and
+4. Open `index.html` in a browser.
+5. Enter a `@student.edu.vn` email and select **Send OTP**.
+6. Copy the 4-digit code printed in the terminal, enter it on the page, and
    verify it.
-8. Submit a valid Minecraft username on the setup page.
+7. Submit a valid Minecraft username on the setup page.
 
 ## Account Status
 
